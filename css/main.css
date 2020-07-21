@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+/********************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background-image: url("../images/background-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+/********************************************************************************************/
+header {
+  z-index: 2;
+  position: fixed;
+  top: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 10px 3%;
+  background: rgb(42, 43, 66);
+  color: white;
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  padding: 0 20px;
+}
+:visited {
+  color: white;
+}
+:link {
+  text-decoration: none;
+}
+.button {
+  display: block;
+}
+button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+/********************************************************************************************/
+main {
+  min-height: calc(100vh - 56px);
+  position: relative;
+  top: 56px;
+  z-index: 0;
+  /* min-height: 500vh; */
+}
+.section1 {
+  margin: 0 10%;
+  color: white;
+}
+.section1-header {
+  transform: translate(-50px, 0);
+}
+
+/********************************************************************************************/
+footer {
+  color: white;
+  position: relative;
+  top: 50px;
+  height: 50px;
+  width: 100vw;
+  text-align: center;
+  background: rgb(2, 3, 7);
+}

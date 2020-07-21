@@ -1,0 +1,1 @@
+zowe profiles create zosmf LearnCOBOL --host 192.86.32.250 --port 10443 --ru false --user prompt * --pass prompt *
