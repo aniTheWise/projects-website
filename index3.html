@@ -4,49 +4,112 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projects Home Page</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      article {
+        border: solid 3px black;
+        margin: 10px 0;
+        padding: 5px;
+      }
+    </style>
   </head>
   <body>
     <nav>
       <p>navbar</p>
     </nav>
-    <section>
-      <h1>project list</h1>
-      <article>
-        <h1>Mobile robot</h1>
-        <img src="" alt="" />
-      </article>
-      <article>
-        <h1>Wireless remote</h1>
-        <img src="" alt="" />
-      </article>
-      <article>
-        <h1>Ebin</h1>
-        <img src="" alt="" />
-      </article>
-      <article>
-        <h1>roller shaded</h1>
-        <img src="" alt="" />
-      </article>
-      <article>
-        <h1>Weather monitor</h1>
-        <img src="" alt="" />
-      </article>
-      <article>
-        <h1>DIY Dremel tool</h1>
-        <img src="" alt="" />
-      </article>
-      <article>
-        <h1>Sonof switch Clone</h1>
-        <img src="" alt="" />
-      </article>
-      <article>
-        <h1>Motion detector light</h1>
-        <img src="" alt="" />
-      </article>
-      <article>
-        <h1>Misc quality of life improvements for makers</h1>
-        <img src="" alt="" />
-      </article>
-    </section>
+    <hr />
+    <h1>project list</h1>
+    <hr />
+    <div class="container">
+      <section>
+        <article>
+          <h3>Mobile robot</h3>
+          <img
+            src="/images/Mobile Robot Car/20200830_003751.jpg"
+            alt=""
+            width="400px"
+          />
+          <br />
+          <a href="mobile_robot.html">details</a>
+          <p>
+            RC mobile robot. powered by 2 bo-motors in rear. servo controlled
+            steering front axel. Controled by nRF24L01, Arduino Nano and L293N
+            modules. Robot is battery powered. Single 18605 cell boosted to 12
+            volts with dc-dc boost converter.
+          </p>
+        </article>
+        <article>
+          <h3>Wireless remote</h3>
+          <img
+            src="/images/Wireless Remote/20200830_012306.jpg"
+            alt=""
+            width="400px"
+          />
+          <br />
+          <a href="wireless_remote.html">details</a>
+          <p>
+            Wireless Remote Control. Uses nRF24L01+ PA LNA Wireless Transceiver.
+            Arduino interfaces wireless module and 2-axis joystick module.
+          </p>
+        </article>
+        <article>
+          <h3>Ebin</h3>
+          <img src="/images/ebin.JPG" alt="" width="200px" />
+          <br />
+          <a href="ebin.html">details</a>
+        </article>
+        <article>
+          <h3>roller shaded</h3>
+          <img src="" alt="" />
+          <a href="roller_shade.html">details</a>
+        </article>
+        <article>
+          <h3>Weather monitor</h3>
+          <img
+            src="images/Weather Monitor/20200830_013128.jpg"
+            alt=""
+            width="400px"
+          />
+          <br />
+          <a href="weather_monitor.html">details</a>
+        </article>
+        <article>
+          <h3>DIY Dremel tool</h3>
+          <img
+            src="/images/Diy Dremel Tool/20200830_013803.jpg"
+            alt=""
+            width="400px"
+          />
+          <br />
+          <a href="diy_dremel.html">details</a>
+        </article>
+        <article>
+          <h3>Sonoff switch Clone</h3>
+          <img src="" alt="" />
+          <a href="sonoff_clone.html">details</a>
+        </article>
+        <article>
+          <h3>Motion detector light</h3>
+          <img
+            src="/images/Motion Detector Light/20200830_013846.jpg"
+            alt=""
+            width="400px"
+          />
+          <br />
+          <a href="motion_light.html">details</a>
+        </article>
+        <article>
+          <h3>Misc quality of life improvements for makers</h3>
+          <img src="" alt="" />
+          <a href="misc.html">details</a>
+        </article>
+      </section>
+    </div>
   </body>
 </html>
